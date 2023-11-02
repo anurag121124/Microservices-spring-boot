@@ -2,6 +2,7 @@ package com.userservice.controller;
 
 import com.userservice.Entity.User;
 import com.userservice.services.userServices;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +14,7 @@ import java.util.List;
 @RequestMapping("/users")
 public class userController {
 
+@Autowired
 private userServices userServices;
 
 @PostMapping

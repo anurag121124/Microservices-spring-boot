@@ -3,6 +3,9 @@ package com.userservice.Entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -24,6 +27,9 @@ public class User {
 
  @Column(name = "ABOUT")
  private String about;
+
+ @Transient
+ private List<Rating>ratings = new ArrayList<>();
 
 
 }
