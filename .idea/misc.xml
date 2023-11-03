@@ -5,6 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/userService/pom.xml" />
+        <option value="$PROJECT_DIR$/hotelservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Download file c/Downloads/hotel microservice/hotel-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/hotel-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/hotelrating/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceRegistry/pom.xml" />
       </list>
     </option>
   </component>
